@@ -1,0 +1,54 @@
+header { grid-area: header; }
+article{ grid-area: main; }
+footer{ grid-area: footer; }
+section{grid-area: section;}
+aside{grid-area: aside;}
+
+body{
+
+    background-image: url("uusip.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    display: grid;
+    grid-gap: 10px;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main main aside'
+    'footer footer footer footer footer section';
+
+    
+}
+footer{
+
+    justify-items: start;
+
+}
+
+article, footer{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    padding: 20px;
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.menu{
+margin: 30px;
+background-color: rgba(255, 228, 196, 0.6);
+}
+
+div.tiedot{
+    margin: 30px;
+background-color: rgba(255, 228, 196, 0.6);
+}
+
+section{
+    grid-row-start: 3;
+    justify-items: center;
+
+}
