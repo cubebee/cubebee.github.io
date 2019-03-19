@@ -1,0 +1,51 @@
+#header{
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(gray, white);
+    padding: 20px;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.navbutton{
+    display: inline-block;
+    padding: 6px;
+    border: 2px solid black;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+    display: flex;
+}
+
+#tiivistys, #Lippu, #taulukko {
+    max-width: 33%;
+}
+
+#Lippu{
+    text-align: center;
+}
+img{
+    max-width: 80%;
+}
+
+#toinen{
+    display: flex;
+}
+
+#Luonto, #Kartta{
+    max-width: 50%;
+}
+
+h2, h3, h4, h5{
+    font-family: Arial, Helvetica, sans-serif;
+}
